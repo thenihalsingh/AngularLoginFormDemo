@@ -1,0 +1,13 @@
+src
+---app
+------user
+---------user.component.ts|.html|.css
+---------registration
+---------registration.component.ts|.html|.css
+---------login
+---------login.component.ts|.html|.css
+------auth
+---------auth.guard.ts
+---------auth.interceptor.ts
+------services
+---------user.services.ts

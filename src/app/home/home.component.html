@@ -1,0 +1,18 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a href="" class="navbar-brand text-white mr-2" style="margin-left: 8px;">Nirvana LMS</a>
+    <button class="btn btn-sm btn-danger" style="margin-right: 8px;" (click)="onLogout()">Logout</button>
+</nav>
+
+<div class="card-m-5" *ngIf="userDetails"> 
+    <ul class="list-group">
+        <li class="list-group-item">
+            <strong>UserName: {{userDetails.userName}}</strong>
+        </li>
+        <li class="list-group-item">
+            <strong>FullName: {{userDetails.fullName}}</strong>
+        </li>
+        <li class="list-group-item">
+            <strong>Email: {{userDetails.email}}</strong>
+        </li>
+    </ul>
+</div>
